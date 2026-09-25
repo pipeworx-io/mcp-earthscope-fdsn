@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/earthscope-fdsn",
+  "title": "Earthscope Fdsn",
+  "description": "FDSN seismic web services MCP — seismometer metadata, data holdings and",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/earthscope-fdsn",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-earthscope-fdsn",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/earthscope-fdsn/mcp"
+    }
+  ]
+}
