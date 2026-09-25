@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-earthscope-fdsn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FDSN seismic web services MCP — seismometer metadata, data holdings and",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8a9be7859c1df39bee283aeaab40fbfba0de77080b367ab878e4548dc213637d",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-ae77dc985d55cbbed2565d19cadadf8900fe534d8e9d0ae9d3bf819033f30b83",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
