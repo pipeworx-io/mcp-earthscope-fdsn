@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/earthscope-fdsn",
   "title": "Earthscope Fdsn",
   "description": "FDSN seismic web services MCP — seismometer metadata, data holdings and regional earthquake…",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "websiteUrl": "https://pipeworx.io/packs/earthscope-fdsn",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-earthscope-fdsn",
