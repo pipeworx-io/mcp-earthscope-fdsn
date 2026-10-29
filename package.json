@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-earthscope-fdsn",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "FDSN seismic web services MCP — seismometer metadata, data holdings and regional earthquake catalogues, over the international FDSN standard.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-earthscope-fdsn": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "earthscope-fdsn"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-earthscope-fdsn.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/earthscope-fdsn",
   "pipeworx": {
-    "sourceHash": "v1-239a955fb979b18ad5ab977de952f4e8155bf50dfcb90344c63603834e3c4e3c",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "earthscope-fdsn",
+    "gatewaySlug": "earthscope-fdsn",
+    "sourceHash": "v1-b69212abb645d579227d4ed360e4c576649bd6a38dc5c2f3fddc8bc8a4d7692f",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
