@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-earthscope-fdsn",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "FDSN seismic web services MCP — seismometer metadata, data holdings and regional earthquake catalogues, over the international FDSN standard.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "earthscope-fdsn",
     "gatewaySlug": "earthscope-fdsn",
-    "sourceHash": "v1-b69212abb645d579227d4ed360e4c576649bd6a38dc5c2f3fddc8bc8a4d7692f",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-b8fde89b4bc36e20d13466f892a300096c1295b724a91ee7132121ef90e4d0ab",
+    "sourceCommit": "e707a4bb6209f432984c0a83bf64b3138130db89"
   }
 }
